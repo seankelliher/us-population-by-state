@@ -1,0 +1,161 @@
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+#container::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+header {
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 0;
+    text-align: center;
+    float: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*Figure tag and its media queries*/
+figure {
+    background: #e0e0e0;
+    padding: 0.625em 5%;
+    float: right;
+}
+
+@media all and (min-width: 300px) {
+  figure {
+    width: 90%;
+    margin: 0.625em 0;
+  }
+}
+
+@media all and (min-width: 375px) {
+  figure {
+    width: 80%;
+    margin: 0.625em 5%;
+  }
+}
+
+/*Figcaption tag and its media queries*/
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    line-height: 1.6;
+    padding: 0;
+    float: left;
+}
+
+@media all and (min-width: 300px) {
+figcaption {
+    font-size: 0.625em;
+    margin: 0 0.625em;
+  }
+}
+
+@media all and (min-width: 375px) {
+figcaption {
+    /*font-size: 0.625em;*/
+    margin: 0 0.875em;
+  }
+}
+
+@media all and (min-width: 475px) {
+figcaption {
+    font-size: 0.675em;
+    /*margin: 0 0.875em;*/
+  }
+}
+
+@media all and (min-width: 600px) {
+figcaption {
+    font-size: 0.875em;
+    margin: 0 1em;
+  }
+}
+
+@media all and (min-width: 900px) {
+figcaption {
+    font-size: 1em;
+    /*margin: 0 1em;*/
+  }
+}
+
+#result-state {
+    font-weight: 600;
+}
+
+/*FONTS*/
+/*H1 tag and its media queries*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 300px) {
+  h1 {
+    font-size: 0.75em;
+  }
+}
+
+@media all and (min-width: 475px) {
+  h1 {
+    font-size: 0.875em;
+  }
+}
+
+@media all and (min-width: 600px) {
+  h1 {
+    font-size: 1em;
+  }
+}
+
+@media all and (min-width: 900px) {
+  h1 {
+    font-size: 1.2em;
+  }
+}
+
+/*P tag and its media queries*/
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 300px) {
+    p {
+    font-size: 0.675em;
+  }
+}
+
+@media all and (min-width: 475px) {
+    p {
+    font-size: 0.75em;
+  }
+}
+
+@media all and (min-width: 600px) {
+    p {
+    font-size: 0.875em;
+  }
+}
+
+@media all and (min-width: 900px) {
+    p {
+    font-size: 1em;
+  }
+}
