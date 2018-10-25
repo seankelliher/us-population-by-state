@@ -5,6 +5,7 @@
     padding: 1em 0;
 }
 
+/*Clearfix for container div*/
 #container::after {
     clear: both;
     content: "";
@@ -63,7 +64,7 @@ figcaption {
 
 @media all and (min-width: 375px) {
 figcaption {
-    /*font-size: 0.625em;*/
+    /*font-size: 0.625em continued from previous*/
     margin: 0 0.875em;
   }
 }
@@ -71,7 +72,7 @@ figcaption {
 @media all and (min-width: 475px) {
 figcaption {
     font-size: 0.675em;
-    /*margin: 0 0.875em;*/
+    /*margin: 0 0.875em continued from previous*/
   }
 }
 
@@ -85,7 +86,7 @@ figcaption {
 @media all and (min-width: 900px) {
 figcaption {
     font-size: 1em;
-    /*margin: 0 1em;*/
+    /*margin: 0 1em  continued from previous*/
   }
 }
 
