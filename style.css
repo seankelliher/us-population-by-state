@@ -27,23 +27,9 @@ img {
 
 /*Figure tag and its media queries*/
 figure {
-    background: #e0e0e0;
-    padding: 0.625em 5%;
-    float: right;
-}
-
-@media all and (min-width: 300px) {
-  figure {
-    width: 90%;
-    margin: 0.625em 0;
-  }
-}
-
-@media all and (min-width: 375px) {
-  figure {
     width: 80%;
-    margin: 0.625em 5%;
-  }
+    margin: 0.625em 10%;
+    padding: 0;
 }
 
 /*Figcaption tag and its media queries*/
