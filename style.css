@@ -23,14 +23,12 @@ img {
     height: auto;
 }
 
-/*Figure tag and its media queries*/
 figure {
     width: 80%;
     margin: 0.625em 10%;
     padding: 0;
 }
 
-/*Figcaption tag and its media queries*/
 figcaption {
     font-family: 'Merriweather', serif;
     color: #000;
@@ -48,7 +46,7 @@ figcaption {
 
 @media all and (min-width: 375px) {
 figcaption {
-    /*font-size: 0.625em continued from previous*/
+    /*font-size: 0.625em inherited*/
     margin: 0 0.875em;
   }
 }
@@ -56,7 +54,7 @@ figcaption {
 @media all and (min-width: 475px) {
 figcaption {
     font-size: 0.675em;
-    /*margin: 0 0.875em continued from previous*/
+    /*margin: 0 0.875em inherited*/
   }
 }
 
@@ -70,7 +68,7 @@ figcaption {
 @media all and (min-width: 900px) {
 figcaption {
     font-size: 1em;
-    /*margin: 0 1em  continued from previous*/
+    /*margin: 0 1em  inherited*/
   }
 }
 
