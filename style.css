@@ -13,11 +13,9 @@
 }
 
 header {
-    width: 100%;
-    margin: 0;
+    width: 96%;
+    margin: 0 2%;
     padding: 0;
-    text-align: center;
-    float: left;
 }
 
 img {
@@ -84,16 +82,12 @@ h1 {
     font-family: 'Francois One', sans-serif;
     line-height: 1.4;
     font-weight: 600;
-    margin: 0;
-    padding: 0;
 }
 
 h2 {
     font-family: 'Merriweather', serif;
     line-height: 1.2;
     font-weight: 400;
-    margin: 0;
-    padding: 0;
 }
 
 @media all and (min-width: 300px) {
