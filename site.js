@@ -385,8 +385,20 @@ populationMap = {
         //Retrieve the map
         const blankMap = document.getElementById("outlines");
 
-        //Add an event listener. When someone clicks...
-        blankMap.addEventListener("click", function (event) {
+        //Function for when user mouses-over
+        function mouseOver(event) {
+            const targetId = event.target.id;
+            document.getElementById(targetId).style.fill = "#03a9f4";
+        }
+
+        //Function for when user mouses-out
+        function mouseOut(event) {
+            const targetId = event.target.id;
+            document.getElementById(targetId).style.fill = "#039be5";
+        }
+
+        //Function for when user clicks
+        function mouseClick(event) {
 
             //Retrieve all states
             const states = document.getElementsByClassName("states");
@@ -529,6 +541,13 @@ populationMap = {
             result2000.textContent = stateArray.c2000.toLocaleString();
             result2010.textContent = stateArray.c2010.toLocaleString();
 
-        }); //close anonymous function
+        } //close mouseClick function
+
+        //Add an event listener. When user mouses-over, mouses-out, clicks...
+        //Functions are above. They must be defined before invoked.
+        blankMap.addEventListener("mouseover", mouseOver);
+        blankMap.addEventListener("mouseout", mouseOut);
+        blankMap.addEventListener("click", mouseClick);
+
     } //close makeMap function
 }; //close populationMap
