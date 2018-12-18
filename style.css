@@ -23,6 +23,11 @@ img {
     height: auto;
 }
 
+/*state outlines in the svg map*/
+.states {
+    cursor: pointer;
+}
+
 figure {
     width: 80%;
     margin: 0.625em 10%;
