@@ -25,4 +25,5 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 * Readme file based on [template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) by Billie Thompson.
 * Population data from the [United States Census Bureau](https://www.census.gov).
 * SVG map by Theshibboleth - own work, based on Electoral map.svg, inspired by BlankMap-World.png, CC BY-SA 3.0. Map is available on [Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=941237).
-* Design guidance from Google's [Material Design](https://material.io/design/).
+* Design guidance from Google's [Material Design](https://material.io/design).
+* Fonts from [Google Fonts](https://fonts.google.com).
