@@ -388,8 +388,8 @@ populationMap = {
         //Function for when user mouses-over
         function mouseOver(event) {
             const targetId = event.target.id;
-            const getTarget = document.getElementById(targetId).getAttribute("fill");
-            const currentFill = getTarget;
+            const getTarget = document.getElementById(targetId);
+            const currentFill = getTarget.getAttribute("fill");
 
             if (currentFill === "#039be5") {
                 getTarget.setAttribute("fill", "#03a9f4");
