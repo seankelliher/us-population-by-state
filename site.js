@@ -388,13 +388,23 @@ populationMap = {
         //Function for when user mouses-over
         function mouseOver(event) {
             const targetId = event.target.id;
-            document.getElementById(targetId).style.fill = "#03a9f4";
+            const getTarget = document.getElementById(targetId);
+            const currentFill = getTarget.getAttribute("fill");
+
+            if (currentFill === "#039be5") {
+                getTarget.setAttribute("fill", "#03a9f4");
+            }
         }
 
         //Function for when user mouses-out
         function mouseOut(event) {
             const targetId = event.target.id;
-            document.getElementById(targetId).style.fill = "#039be5";
+            const getTarget = document.getElementById(targetId);
+            const currentFill = getTarget.getAttribute("fill");
+
+            if (currentFill === "#03a9f4") {
+                getTarget.setAttribute("fill", "#039be5");
+            }
         }
 
         //Function for when user clicks
