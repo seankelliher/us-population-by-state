@@ -388,8 +388,8 @@ populationMap = {
         //Function for when user mouses-over
         function mouseOver(event) {
             const targetId = event.target.id;
-            const getTarget = document.getElementById(targetId);
-            const currentFill = getTarget.getAttribute("fill");
+            const getTarget = document.getElementById(targetId).getAttribute("fill");
+            const currentFill = getTarget;
 
             if (currentFill === "#039be5") {
                 getTarget.setAttribute("fill", "#03a9f4");
@@ -418,12 +418,12 @@ populationMap = {
 
             //Reset each state's fill to the default color
             statesArray.forEach(function (st) {
-                st.style.fill = "#039be5";
+                st.setAttribute("fill", "#039be5");
             });
 
             //Modify the target state's fill to the highlight color
             const targetId = event.target.id;
-            document.getElementById(targetId).style.fill = "#ff6f60";
+            document.getElementById(targetId).setAttribute("fill", "#ff6f60");
 
             //Retrieve the spans in the "results" box
             const resultState = document.getElementById("result-state");
