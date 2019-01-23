@@ -560,4 +560,5 @@ populationMap = {
         blankMap.addEventListener("click", mouseClick);
 
     } //close makeMap function
+    
 }; //close populationMap
