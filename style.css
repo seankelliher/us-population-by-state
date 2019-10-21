@@ -3,13 +3,7 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 1em 0;
-}
-
-/*Clearfix for container div*/
-#container::after {
-    clear: both;
-    content: "";
-    display: table;
+    display: flow-root;
 }
 
 header {
