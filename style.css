@@ -30,8 +30,8 @@ figure {
 
 figcaption {
     font-family: 'Merriweather', serif;
-    color: #000;
     line-height: 1.5;
+    font-weight: 400;
     padding: 0;
     float: left;
 }
@@ -78,7 +78,7 @@ figcaption {
 h1 {
     font-family: 'Francois One', sans-serif;
     line-height: 1.4;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 h2 {
