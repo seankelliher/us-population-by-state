@@ -21,6 +21,60 @@ header {
     cursor: pointer;
 }
 
+svg {
+    width: 70%;
+    margin: 0;
+    padding: .5em 2.5%;
+    flex: initial; /*flex: 0 1 auto*/
+}
+
+section {
+    width: 20%;
+    margin: 0;
+    padding: .5em 2.5%;
+    flex: initial; /*flex: 0 1 auto*/
+}
+
+@media all and (min-width: 300px) {
+    svg {
+        width: 95%;
+    }
+
+    section {
+        width: 95%;
+    }
+}
+
+@media all and (min-width: 600px) {
+    svg {
+        width: 60%;
+    }
+
+    section {
+        width: 30%;
+    }
+}
+
+@media all and (min-width: 900px) {
+    svg {
+        width: 65%;
+    }
+
+    section {
+        width: 25%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    svg {
+        width: 70%;
+    }
+
+    section {
+        width: 20%;
+    }
+}
+
 h1 {
     font-family: 'Francois One', sans-serif;
     line-height: 1.4;
