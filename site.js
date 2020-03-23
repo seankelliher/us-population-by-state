@@ -425,7 +425,8 @@ populationMap = {
             const result2000 = document.getElementById("result-2000");
             const result2010 = document.getElementById("result-2010");
 
-            let stateArray;
+            //Retrieve the state from the "populations" object.
+            const stateArray = populationMap.populations[targetId];
 
             //Assign objects from target state's object to its span
             //toLocalString() adds commas to numbers > three digits
