@@ -1,7 +1,7 @@
-//Global variable (actually "let")
+//Global variable.
 let populationMap;
 
-//Monitor the page, when the "DOM" is loaded, invoke the makeMap function
+//Monitor the page, when the "DOM" is loaded, invoke the makeMap function.
 document.addEventListener("DOMContentLoaded", function () {
     "use strict";
 
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 populationMap = {
 
-    //State populations by census year
+    //State populations by census year.
     populations: {
 
         alabama: {
@@ -69,7 +69,7 @@ populationMap = {
             c2000: 783600,
             c2010: 897934
         },
-        districtOfColumbia: {
+        districtofcolumbia: {
             name: "Washington, DC",
             c1980: 638000,
             c1990: 606900,
@@ -216,42 +216,42 @@ populationMap = {
             c2000: 1998257,
             c2010: 2700551
         },
-        newHampshire: {
+        newhampshire: {
             name: "New Hampshire",
             c1980: 921000,
             c1990: 1109252,
             c2000: 1235786,
             c2010: 1316470
         },
-        newJersey: {
+        newjersey: {
             name: "New Jersey",
             c1980: 7364000,
             c1990: 7730188,
             c2000: 8414350,
             c2010: 8791894
         },
-        newMexico: {
+        newmexico: {
             name: "New Mexico",
             c1980: 1299000,
             c1990: 1515069,
             c2000: 1819046,
             c2010: 2059179
         },
-        newYork: {
+        newyork: {
             name: "New York",
             c1980: 17557000,
             c1990: 17990455,
             c2000: 18976457,
             c2010: 19378102
         },
-        northCarolina: {
+        northcarolina: {
             name: "North Carolina",
             c1980: 5874000,
             c1990: 6628637,
             c2000: 8049313,
             c2010: 9535483
         },
-        northDakota: {
+        northdakota: {
             name: "North Dakota",
             c1980: 654000,
             c1990: 638800,
@@ -286,21 +286,21 @@ populationMap = {
             c2000: 12281054,
             c2010: 12702379
         },
-        rhodeIsland: {
+        rhodeisland: {
             name: "Rhode Island",
             c1980: 948000,
             c1990: 1003464,
             c2000: 1048319,
             c2010: 1052567
         },
-        southCarolina: {
+        southcarolina: {
             name: "South Carolina",
             c1980: 3119000,
             c1990: 3486703,
             c2000: 4012012,
             c2010: 4625364
         },
-        southDakota: {
+        southdakota: {
             name: "South Dakota",
             c1980: 690000,
             c1990: 696004,
@@ -349,7 +349,7 @@ populationMap = {
             c2000: 5894121,
             c2010: 6724540
         },
-        westVirginia: {
+        westvirginia: {
             name: "West Virginia",
             c1980: 1950000,
             c1990: 1793477,
@@ -369,13 +369,6 @@ populationMap = {
             c1990: 453588,
             c2000: 493782,
             c2010: 563626
-        },
-        puertoRico: {
-            name: "Puerto Rico",
-            c1980: 3196520,
-            c1990: 3522037,
-            c2000: 3808610,
-            c2010: 3725789
         }
     },
 
