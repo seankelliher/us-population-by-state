@@ -428,22 +428,20 @@ populationMap = {
             //Retrieve the state from the "populations" object.
             const stateArray = populationMap.populations[targetId];
 
-            //Assign objects from target state's object to its span
-            //toLocalString() adds commas to numbers > three digits
+            //Assign data from "populations" object to text fields.
+            //toLocalString() adds commas to numbers > three digits.
             resultState.textContent = stateArray.name;
             result1980.textContent = stateArray.c1980.toLocaleString();
             result1990.textContent = stateArray.c1990.toLocaleString();
             result2000.textContent = stateArray.c2000.toLocaleString();
             result2010.textContent = stateArray.c2010.toLocaleString();
-
-        } //close mouseClick function
+        }
 
         //Add an event listener. When user mouses-over, mouses-out, clicks...
         //Functions are above. They must be defined before invoked.
         blankMap.addEventListener("mouseover", mouseOver);
         blankMap.addEventListener("mouseout", mouseOut);
         blankMap.addEventListener("click", mouseClick);
+    }
 
-    } //close makeMap function
-    
 }; //close populationMap
