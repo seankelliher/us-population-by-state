@@ -16,62 +16,9 @@ header {
     flex: initial; /*flex: 0 1 auto*/
 }
 
-/*state outlines in the svg map*/
+/*Class paths in svg.*/
 .states {
     cursor: pointer;
-}
-
-figure {
-    width: 80%;
-    margin: 0.625em 10%;
-    padding: 0;
-}
-
-figcaption {
-    font-family: 'Merriweather', serif;
-    line-height: 1.5;
-    font-weight: 400;
-    padding: 0;
-    float: left;
-}
-
-@media all and (min-width: 300px) {
-figcaption {
-    font-size: 0.625em;
-    margin: 0 0.625em;
-  }
-}
-
-@media all and (min-width: 375px) {
-figcaption {
-    /*font-size: 0.625em inherited*/
-    margin: 0 0.875em;
-  }
-}
-
-@media all and (min-width: 475px) {
-figcaption {
-    font-size: 0.675em;
-    /*margin: 0 0.875em inherited*/
-  }
-}
-
-@media all and (min-width: 600px) {
-figcaption {
-    font-size: 0.875em;
-    margin: 0 1em;
-  }
-}
-
-@media all and (min-width: 900px) {
-figcaption {
-    font-size: 1em;
-    /*margin: 0 1em  inherited*/
-  }
-}
-
-#result-state {
-    font-weight: 700;
 }
 
 h1 {
