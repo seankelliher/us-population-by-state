@@ -16,11 +16,6 @@ header {
     flex: initial; /*flex: 0 1 auto*/
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
-
 /*state outlines in the svg map*/
 .states {
     cursor: pointer;
