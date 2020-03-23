@@ -375,50 +375,50 @@ populationMap = {
     makeMap: function () {
         "use strict";
 
-        //Retrieve the map
+        //Retrieve the map.
         const blankMap = document.getElementById("outlines");
 
-        //Function for when user mouses-over
+        //When user mouses over state, make background color lighter blue.
         function mouseOver(event) {
             const targetId = event.target.id;
             const getTarget = document.getElementById(targetId);
             const currentFill = getTarget.getAttribute("fill");
 
-            if (currentFill === "#039be5") {
-                getTarget.setAttribute("fill", "#03a9f4");
+            if (currentFill === "#039BE5") {
+                getTarget.setAttribute("fill", "#03A9F4");
             }
         }
 
-        //Function for when user mouses-out
+        //When user "mouses off" state, return background color to darker blue.
         function mouseOut(event) {
             const targetId = event.target.id;
             const getTarget = document.getElementById(targetId);
             const currentFill = getTarget.getAttribute("fill");
 
-            if (currentFill === "#03a9f4") {
-                getTarget.setAttribute("fill", "#039be5");
+            if (currentFill === "#03A9F4") {
+                getTarget.setAttribute("fill", "#039BE5");
             }
         }
 
-        //Function for when user clicks
+        //When user clicks on a state...
         function mouseClick(event) {
 
-            //Retrieve all states
+            //Retrieve all states.
             const states = document.getElementsByClassName("states");
 
-            //Modify the nodelist to real array
+            //Modify the nodelist to real array.
             const statesArray = Array.from(states);
 
-            //Reset each state's fill to the default color
+            //Reset each state's fill to the default color.
             statesArray.forEach(function (st) {
-                st.setAttribute("fill", "#039be5");
+                st.setAttribute("fill", "#039BE5");
             });
 
-            //Modify the target state's fill to the highlight color
+            //Modify the target state's fill to the highlight color.
             const targetId = event.target.id;
-            document.getElementById(targetId).setAttribute("fill", "#ff6f60");
+            document.getElementById(targetId).setAttribute("fill", "#FF6F60");
 
-            //Retrieve the spans in the "results" box
+            //Retrieve the "results" id and spans.
             const resultState = document.getElementById("result-state");
             const result1980 = document.getElementById("result-1980");
             const result1990 = document.getElementById("result-1990");
