@@ -1,6 +1,6 @@
 # State Populations Map
 
-Responsive, interactive map of the United States that displays the population of US States in 1980, 1990, 2000, and 2010. Users view the map; click on a state; and the population data is displayed in a box underneath the map. Data is from the United States Census Bureau. All interativity is accomplished with "vanilla" JavaScript.
+Interactive map of the United States that displays each state's population in 1980, 1990, 2000, and 2010. Data is from the United States Census Bureau.
 
 ## Authors
 
