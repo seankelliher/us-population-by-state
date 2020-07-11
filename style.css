@@ -98,14 +98,14 @@ h2 {
     font-weight: 700;
 }
 
-p, li {
+p, li, text {
     font-family: 'Roboto', serif;
     line-height: 1.8;
     font-weight: 400;
 }
 
 @media all and (min-width: 300px) {
-    p, li {
+    p, li, text {
         font-size: .9375em; /*15 pixels*/
     }
 
@@ -119,7 +119,7 @@ p, li {
 }
 
 @media all and (min-width: 600px) {
-    p, li {
+    p, li, text {
         font-size: 1em; /*16 pixels*/
     }
 
