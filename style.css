@@ -104,6 +104,10 @@ p, li, text {
     font-weight: 400;
 }
 
+text {
+    pointer-events: none;
+}
+
 @media all and (min-width: 300px) {
     p, li, text {
         font-size: .9375em; /*15 pixels*/
