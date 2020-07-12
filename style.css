@@ -16,7 +16,7 @@ header {
     flex: initial; /*flex: 0 1 auto*/
 }
 
-/*Class paths in svg.*/
+/*Class for paths in svg.*/
 .states {
     cursor: pointer;
 }
