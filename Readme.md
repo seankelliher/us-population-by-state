@@ -8,7 +8,7 @@ Interactive map of the United States that displays each state's population in 19
 
 ## Deployment
 
-All you need is a web browser. Code works in a local or remote environment.
+All you need is a web browser. Code works in a local or remote environment. However, in a local environment, you may need to modify your browser's setting for local files.
 
 ## Built With
 
