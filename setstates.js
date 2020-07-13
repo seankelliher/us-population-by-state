@@ -8,7 +8,7 @@ function setStates() {
 
     //Reset each state's fill to the default color.
     statesArray.forEach(function (st) {
-        st.setAttribute("fill", "#039BE5");
+        st.setAttribute("fill", "#71BBD9");
     });
 }
 
