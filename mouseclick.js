@@ -18,7 +18,7 @@ function mouseClick() {
 
         //Retrieve and highlight the clicked state.
         const targetId = event.target.id;
-        document.getElementById(targetId).setAttribute("fill", "#FF6F60");
+        document.getElementById(targetId).setAttribute("fill", "#F2CB05");
 
         //Retrieve heading and spans where census data goes.
         const ckState = document.getElementById("ck-state");
