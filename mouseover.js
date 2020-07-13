@@ -11,8 +11,8 @@ function mouseOver() {
         const getTarget = document.getElementById(targetId);
         const currentFill = getTarget.getAttribute("fill");
 
-        if (currentFill === "#039BE5") {
-            getTarget.setAttribute("fill", "#03A9F4");
+        if (currentFill === "#71BBD9") {
+            getTarget.setAttribute("fill", "#63A5BF");
         }
     });
 }
