@@ -6,7 +6,7 @@ function defaultDc() {
     const dcCircle = document.getElementById("districtofcolumbia");
 
     //Highlight it.
-    dcCircle.setAttribute("fill", "#FF6F60");
+    dcCircle.setAttribute("fill", "#F2CB05");
 
     //Retrieve heading and spans where census data goes.
     const ckState = document.getElementById("ck-state");
