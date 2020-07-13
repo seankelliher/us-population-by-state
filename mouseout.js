@@ -11,8 +11,8 @@ function mouseOut() {
         const getTarget = document.getElementById(targetId);
         const currentFill = getTarget.getAttribute("fill");
 
-        if (currentFill === "#03A9F4") {
-            getTarget.setAttribute("fill", "#039BE5");
+        if (currentFill === "#63A5BF") {
+            getTarget.setAttribute("fill", "#71BBD9");
         }
     });
 }
