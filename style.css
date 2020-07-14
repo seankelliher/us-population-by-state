@@ -80,6 +80,10 @@ figcaption {
     flex: initial; /*flex: 0 1 auto*/
 }
 
+sup {
+    color: #8C3503;
+}
+
 h1 {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
