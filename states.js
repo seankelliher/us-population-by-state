@@ -477,6 +477,42 @@ const wyoming = new State({
     c2010: 563626
 });
 
+//State's population change 1980 to 1990 in percent.
+State.prototype.diff1980to1990 = function () {
+    const percent = this.c1980 / this.c1990;
+    const fromOne = 1 - percent;
+    const perDiff = fromOne * 100;
+    return (
+        perDiff < 0
+        ? (perDiff.toFixed(1))
+        : ("+" + perDiff.toFixed(1))
+    );
+};
+
+//State's population change 1990 and 2000 in percent.
+State.prototype.diff1990to2000 = function () {
+    const percent = this.c1990 / this.c2000;
+    const fromOne = 1 - percent;
+    const perDiff = fromOne * 100;
+    return (
+        perDiff < 0
+        ? (perDiff.toFixed(1))
+        : ("+" + perDiff.toFixed(1))
+    );
+};
+
+//State's population change 2000 and 2010 in percent.
+State.prototype.diff2000to2010 = function () {
+    const percent = this.c2000 / this.c2010;
+    const fromOne = 1 - percent;
+    const perDiff = fromOne * 100;
+    return (
+        perDiff < 0
+        ? (perDiff.toFixed(1))
+        : ("+" + perDiff.toFixed(1))
+    );
+};
+
 //Combine objects for each state into one larger object.
 const allStates = {
     alabama,
