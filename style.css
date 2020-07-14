@@ -22,7 +22,7 @@ header {
 }
 
 figure {
-    width: 70%;
+    width: 95%;
     margin: 0;
     padding: .5em 2.5%;
     flex: initial; /*flex: 0 1 auto*/
