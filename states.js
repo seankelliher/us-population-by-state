@@ -29,7 +29,7 @@ const alabama = new State({
 
 const alaska = new State({
     id: "alaska",
-    name: "A",
+    name: "Alaska",
     c1980: 400000,
     c1990: 550043,
     c2000: 626932,
