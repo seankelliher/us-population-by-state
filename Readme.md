@@ -1,6 +1,6 @@
 # US Population By State
 
-Interactive map of the United States that displays each state's population in 1980, 1990, 2000, and 2010. Data is from the United States Census Bureau.
+Interactive map of the United States that displays each state's population in 1980, 1990, 2000, and 2010. It also displays the percentage each state's population changed from one census to the next. Data is from the United States Census Bureau.
 
 ## Authors
 
