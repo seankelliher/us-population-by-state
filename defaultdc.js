@@ -1,5 +1,8 @@
 import {allStates} from "./states.js";
 
+//Note: this file duplicates a lot of the code is the file mouseclick.js.
+//But, doing so makes it easier to change the default view, if desired.
+
 function defaultDc() {
 
     //Retrieve Washington, DC element.
@@ -8,23 +11,33 @@ function defaultDc() {
     //Highlight it.
     dcCircle.setAttribute("fill", "#F2CB05");
 
-    //Retrieve heading and spans where census data goes.
+    //Retrieve elements where state name and census counts go.
     const ckState = document.getElementById("ck-state");
     const ck1980 = document.getElementById("ck-1980");
     const ck1990 = document.getElementById("ck-1990");
     const ck2000 = document.getElementById("ck-2000");
     const ck2010 = document.getElementById("ck-2010");
 
+    //Retrieve elements where percentage of change goes.
+    const ck1990Sup = document.getElementById("ck-1990-sup");
+    const ck2000Sup = document.getElementById("ck-2000-sup");
+    const ck2010Sup = document.getElementById("ck-2010-sup");
+
     //Retrieve Washington, DC from "allStates" object.
     const chosenState = allStates.districtofcolumbia;
 
-    //Put census data in spans.
+    //Place state name and census counts into elements.
     //toLocalString() adds commas to numbers > three digits.
     ckState.textContent = chosenState.name;
     ck1980.textContent = chosenState.c1980.toLocaleString();
     ck1990.textContent = chosenState.c1990.toLocaleString();
     ck2000.textContent = chosenState.c2000.toLocaleString();
     ck2010.textContent = chosenState.c2010.toLocaleString();
+
+    //Place percentage of change into elements.
+    ck1990Sup.textContent = `${chosenState.diff1980to1990()}%`;
+    ck2000Sup.textContent = `${chosenState.diff1990to2000()}%`;
+    ck2010Sup.textContent = `${chosenState.diff2000to2010()}%`;
 }
 
 export {defaultDc};
