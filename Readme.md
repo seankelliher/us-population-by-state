@@ -24,6 +24,7 @@ I wanted to build a component that displays US population growth using the last 
 * Population data from the [United States Census Bureau](https://www.census.gov).
 * SVG map by Theshibboleth - own work, based on Electoral map.svg, inspired by BlankMap-World.png, CC BY-SA 3.0. Map is available on [Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=941237).
 * Readme guidance from [Brenna Martenson](https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4).
+* JavaScript guidance from [JSLint](http://jslint.com).
 * Design guidance from Google's [Material Design](https://material.io/design) and [Adobe Color](https://color.adobe.com/trends).
 * Fonts from [Google Fonts](https://fonts.google.com).
 * Shields from [Shields](https://shields.io).
