@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /*main axis*/
+    align-items: flex-start; /*cross axis*/
+}
+
+header {
+    width: 90%;
+    margin: 0;
+    padding: 1em 5%;
+    position: relative;
+    border-bottom: 1px solid #EEE; /*grey 200*/
+    background: #FAFAFA; /*grey 50*/
+}
+
+header::before {
+    content:  "";
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    width: 1200px;
+    left: 100%;
+    border-bottom: 1px solid #EEE; /*grey 200*/
+    background: #FAFAFA; /*grey 50*/
+}
+
+header::after {
+    content:  "";
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    width: 1200px;
+    right: 100%;
+    border-bottom: 1px solid #EEE; /*grey 200*/
+    background: #FAFAFA; /*grey 50*/
+}
+
+/*Class for paths in svg.*/
+.states {
+    cursor: pointer;
+}
+
+figure {
+    width: 90%;
+    margin: 0;
+    padding: 1em 5%;
+    flex: initial; /*flex: 0 1 auto*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; /*main axis*/
+    align-items: flex-start; /*cross axis*/
+}
+
+svg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex: initial; /*flex: 0 1 auto*/
+}
+
+section {
+    margin: .5em 0;
+    padding: .25em 5%;
+    flex: initial; /*flex: 0 1 auto*/
+    border: 1px solid #EEE; /*grey 200*/
+    background: #FAFAFA; /*grey 50*/
+}
+
+@media all and (min-width: 300px) {
+    section {
+        width: 60%;
+    }
+}
+
+@media all and (min-width: 400px) {
+    section {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 500px) {
+    section {
+        width: 40%;
+    }
+}
+
+@media all and (min-width: 600px) {
+    section {
+        width: 30%;
+    }
+}
+
+@media all and (min-width: 700px) {
+    section {
+        width: 25%;
+    }
+}
+
+@media all and (min-width: 900px) {
+    section {
+        width: 20%;
+    }
+}
+
+/*Fonts*/
+p {
+    font-family: 'Roboto', serif;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+text {
+    font-family: 'Roboto', serif;
+    line-height: 1.8;
+    font-weight: 400;
+    pointer-events: none;
+}
+
+sup {
+    color: #748C1C;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+@media all and (min-width: 300px) {
+    p, text {
+        font-size: .9375em; /*15 pixels*/
+    }
+
+    h1 {
+        font-size: 1.4375em; /*23 pixels*/
+    }
+
+    h2 {
+        font-size: 1.0625em; /*17 pixels*/
+    }
+}
+
+@media all and (min-width: 600px) {
+    p, text {
+        font-size: 1em; /*16 pixels*/
+    }
+
+    h1 {
+        font-size: 1.5em; /*24 pixels*/
+    }
+
+    h2 {
+        font-size: 1.125em; /*18 pixels*/
+    }
+}
+
+@media all and (min-width: 900px) {
+    h2 {
+        font-size: 1.1875em; /*19 pixels*/
+    }
+}
