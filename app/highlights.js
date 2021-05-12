@@ -9,8 +9,8 @@ function mouseOver(etid) {
     const fill = target.getAttribute("fill");
 
     //Change if needed.
-    if (fill === "#B6E1F2") {
-        target.setAttribute("fill", "#9FC5D4");
+    if (fill === "#EEE") { //grey 200.
+        target.setAttribute("fill", "#E0E0E0"); //grey 300.
     }
 }
 
@@ -23,8 +23,8 @@ function mouseOut(etid) {
     const fill = target.getAttribute("fill");
 
     //Change if needed.
-    if (fill === "#9FC5D4") {
-        target.setAttribute("fill", "#B6E1F2");
+    if (fill === "#E0E0E0") { //grey 300.
+        target.setAttribute("fill", "#EEE"); //grey 200.
     }
 }
 
@@ -39,7 +39,7 @@ function mouseClick(etid) {
     const target = document.getElementById(etid);
 
     //Change it.
-    target.setAttribute("fill", "#A1A608");
+    target.setAttribute("fill", "#4FC3F7"); //light blue 300.
 }
 
 export {mouseOver, mouseOut, mouseClick};

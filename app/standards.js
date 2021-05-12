@@ -14,8 +14,8 @@ function standardizeFill() {
         const fill = state.getAttribute("fill");
 
         //Reset it, if needed.
-        if (fill !== "#71BBD9") {
-            state.setAttribute("fill", "#B6E1F2");
+        if (fill !== "#EEE") { //grey 200.
+            state.setAttribute("fill", "#EEE"); //grey 200.
         }
     });
 }
