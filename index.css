@@ -59,13 +59,13 @@ footer {
 
 /*Fonts*/
 p, li {
-    font-family: 'Roboto', serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.6;
     font-weight: 400;
 }
 
 text {
-    font-family: 'Roboto', serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.8;
     font-weight: 400;
     pointer-events: none;
@@ -76,7 +76,7 @@ sup {
 }
 
 h1, h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 700;
 }
