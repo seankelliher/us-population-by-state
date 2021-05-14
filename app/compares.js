@@ -32,8 +32,8 @@ function showCompares(etid) {
         const perDiff = fromOne * 100;
         return (
             perDiff < 0
-            ? (perDiff.toFixed(1))
-            : ("+" + perDiff.toFixed(1))
+            ? (perDiff.toFixed(2))
+            : ("+" + perDiff.toFixed(2))
         );
     }
 
@@ -51,6 +51,20 @@ function showCompares(etid) {
     c2000Dif.textContent = `${getChange(c1990Data, c2000Data)}%`;
     c2010Dif.textContent = `${getChange(c2000Data, c2010Data)}%`;
     c2020Dif.textContent = `${getChange(c2010Data, c2020Data)}%`;
+
+    //Gather "sup" elements. Convert to "real" array.
+    const sups = document.querySelectorAll("sup");
+    const supsArray = Array.from(sups);
+
+    //Loop through array. Assign text color.
+    supsArray.forEach(function (sup) {
+        if (sup.textContent.substring(0, 1) === "+") {
+            sup.style.color = "#1976D2"; //blue 700.
+        }
+        if (sup.textContent.substring(0, 1) === "-") {
+            sup.style.color = "#D32F2F"; //red 700.
+        }
+    });
 }
 
 export {showCompares};
