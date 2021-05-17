@@ -71,10 +71,6 @@ text {
     pointer-events: none;
 }
 
-sup {
-    color: #C63F17; /*deep orange 400 dark*/
-}
-
 h1, h2 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
