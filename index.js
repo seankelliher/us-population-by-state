@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
     //Set the fill color for all states.
     standardizeFill();
 
-    //Highlight Washington, DC. Show its data.
-    mouseClick("districtofcolumbia");
-    showCompares("districtofcolumbia");
+    //Highlight California. Show its data.
+    mouseClick("california");
+    showCompares("california");
 
     //Get "outlines" id (this houses all "states").
     const outlines = document.getElementById("outlines");
