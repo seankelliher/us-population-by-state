@@ -5,11 +5,8 @@ Map of US that displays state population in 1980, 1990, 2000, and 2010.
 
 ## Project Screen Shots
 
-![screen shot of project](/screenshots/us-population-by-state-screenshot1.jpg)
-
-![screen shot of project](/screenshots/us-population-by-state-screenshot2.jpg)
-
-![screen shot of project](/screenshots/us-population-by-state-screenshot3.jpg)
+* Starting view - with California selected.
+![screen shot of project](/screenshots/us-population-by-state-screenshot1.png?s=600)
 
 ## Installation and Setup Instructions
 
