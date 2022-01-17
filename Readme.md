@@ -1,7 +1,7 @@
 [![MIT License on GitHub](https://img.shields.io/github/license/seankelliher/us-population-by-state?style=flat-square)](/LICENSE.txt)
 ## US Population By State
 
-Map of US that displays state population in 1980, 1990, 2000, and 2010.
+Map of US that displays state population in 1980, 1990, 2000, 2010, and 2020.
 
 ## Project Screen Shots
 
@@ -14,7 +14,7 @@ This is a static component. All you need is a web browser. However, component us
 
 ## Reflection
 
-I wanted to build a component that displays US population growth using the last four Census counts (1980, 1990, 2000, 2010). I wanted to show growth state by state, in raw numbers as well as percentage change between Census counts. Challenges were customizing an existing SVG map to include state names - especially challenging in the Northeast where states are smaller - and ensuring data remained readable on smaller screen sizes.
+I wanted to build a component that displays US population growth using the last five Census counts (1980, 1990, 2000, 2010, 2020). I wanted to show growth state by state, in raw numbers as well as percentage change between Census counts. Challenges were customizing an existing SVG map to include state names - especially challenging in the Northeast where states are smaller - and ensuring data remained readable on smaller screen sizes.
 
 ## Acknowledgments
 
