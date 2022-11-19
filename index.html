@@ -19,10 +19,6 @@
 
         <div id="container">
 
-            <header>
-                <h1>United States Population</h1>
-            </header>
-
             <figure>
 
                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -152,21 +148,24 @@
 
             <section>
 
-                <h2 id="state-name"></h2>
-                
-                <ul>
-                    <li>1980 - <span id="c1980"></span></li>
-                    <li>1990 - <span id="c1990"></span> <sup id="c1990-dif"></sup></li>
-                    <li>2000 - <span id="c2000"></span> <sup id="c2000-dif"></sup></li>
-                    <li>2010 - <span id="c2010"></span> <sup id="c2010-dif"></sup></li>
-                    <li>2020 - <span id="c2020"></span> <sup id="c2020-dif"></sup></li>      
-                </ul>
+                <div class="stats">
+                    <h2 id="state-name"></h2>
+                    
+                    <p>1980<span class="pop" id="c1980"></span></p>
+                    <p>1990<span class="pop" id="c1990"></span> <span class="diff" id="c1990-dif"></span></p>
+                    <p>2000<span class="pop" id="c2000"></span> <span class="diff" id="c2000-dif"></span></p>
+                    <p>2010<span class="pop" id="c2010"></span> <span class="diff" id="c2010-dif"></span></p>
+                    <p>2020<span class="pop" id="c2020"></span> <span class="diff" id="c2020-dif"></span></p>      
+
+                </div>
+
+                <div class="notes">
+                    <p><strong>United States Population</strong> - Population by State, data from the US Census counts in 1980, 1990, 2000, 2010, and 2020.</p>
+                </div>
 
             </section>
 
-            <footer>
-                <p>Data is from the 1980, 1990, 2000, 2010, and 2020 Census counts conducted by the United States Census Bureau.</p>
-            </footer>
+
 
         </div> <!--close #container-->
 
