@@ -59,10 +59,10 @@ function showCompares(etid) {
     // Loop through array. Assign text color.
     diffsArray.forEach(function (diff) {
         if (diff.textContent.substring(0, 1) === "+") {
-            diff.style.color = "#1976d2"; // Blue 700.
+            diff.style.color = "#004ba0"; // Blue 700 dark.
         }
         if (diff.textContent.substring(0, 1) === "-") {
-            diff.style.color = "#c2185b"; // Pink 700.
+            diff.style.color = "#8c0032"; // Pink 700 dark.
         }
     });
 }
