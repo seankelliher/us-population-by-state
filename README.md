@@ -1,7 +1,7 @@
 [![MIT License on GitHub](https://img.shields.io/github/license/seankelliher/us-population-by-state?style=flat-square)](/LICENSE.txt)
 ## US Population By State
 
-Map of US that displays state population in 1980, 1990, 2000, 2010, and 2020.
+Map of US that displays state population in 1980, 1990, 2000, 2010, and 2020. [View working component](https://seankelliher.github.io/us-population-by-state/).
 
 ## Project Screen Shots
 
