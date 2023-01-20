@@ -13,6 +13,7 @@
 /* Class for paths in svg. */
 .states {
     cursor: pointer;
+    outline: none;
 }
 
 figure {
