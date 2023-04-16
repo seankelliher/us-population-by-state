@@ -14,8 +14,8 @@ function standardizeFill() {
         const fill = state.getAttribute("fill");
 
         // Reset it, if needed.
-        if (fill !== "#4fc3f7") { // Light blue 300.
-            state.setAttribute("fill", "#4fc3f7"); // Light blue 300.
+        if (fill !== "#8fadbf") { // medium blue grey.
+            state.setAttribute("fill", "#8fadbf"); // medium blue grey.
         }
     });
 }

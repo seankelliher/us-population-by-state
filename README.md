@@ -5,7 +5,7 @@ Map of US that displays state population in 1980, 1990, 2000, 2010, and 2020. [V
 
 ## Project Screen Shots
 
-* Starting view - with California selected.
+* View - with West Virginia selected.
 ![screen shot of project](/screenshots/us-population-by-state-screenshot1.png?s=600)
 
 ## Installation and Setup Instructions
