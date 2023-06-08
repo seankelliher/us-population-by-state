@@ -10,7 +10,7 @@ Map of US that displays state population in 1980, 1990, 2000, 2010, and 2020. [V
 
 ## Installation and Setup Instructions
 
-This is a static component. All you need is a web browser. However, component uses ES6 modules. Developing locally may require disabling your browser's local file restrictions.
+This is a static component. Simply open the `index.html` file in your browser. However, component uses ES6 modules. Developing locally may require disabling your browser's local file restrictions.
 
 ## Reflection
 
