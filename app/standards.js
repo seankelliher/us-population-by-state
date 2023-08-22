@@ -14,8 +14,8 @@ function standardizeFill() {
         const fill = state.getAttribute("fill");
 
         // Reset it, if needed.
-        if (fill !== "#8fadbf") { // medium blue grey.
-            state.setAttribute("fill", "#8fadbf"); // medium blue grey.
+        if (fill !== "#cfe5ff") { // If fill is not the default color...
+            state.setAttribute("fill", "#cfe5ff"); // make it the default color.
         }
     });
 }

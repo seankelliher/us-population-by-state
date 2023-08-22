@@ -9,8 +9,8 @@ function mouseOver(etid) {
     const fill = target.getAttribute("fill");
 
     // Change if needed.
-    if (fill === "#8fadbf") { // medium blue grey.
-        target.setAttribute("fill", "#b0cdd9"); // light blue grey.
+    if (fill === "#cfe5ff") { // If fill is default color...
+        target.setAttribute("fill", "#e8f2ff"); // make it mouse over color.
     }
 }
 
@@ -23,8 +23,8 @@ function mouseOut(etid) {
     const fill = target.getAttribute("fill");
 
     // Change if needed.
-    if (fill === "#b0cdd9") { // light blue grey.
-        target.setAttribute("fill", "#8fadbf"); // medium blue grey.
+    if (fill === "#e8f2ff") { // If fill is mouse over color...
+        target.setAttribute("fill", "#cfe5ff"); // make it the default color.
     }
 }
 
@@ -39,7 +39,7 @@ function mouseClick(etid) {
     const target = document.getElementById(etid);
 
     // Change it.
-    target.setAttribute("fill", "#f28a2e"); // orange.
+    target.setAttribute("fill", "#ede76d"); // Make fill the selected color.
 }
 
 export {mouseOver, mouseOut, mouseClick};
