@@ -1,0 +1,140 @@
+#container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    background: #fcfcff;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; /* main axis */
+    align-items: flex-start; /* cross axis */
+}
+
+/* Class for paths in svg. */
+.states {
+    cursor: pointer;
+    outline: none;
+}
+
+figure {
+    width: 95%;
+    margin: 0;
+    padding: 1em 2.5%;
+    flex: initial; /* flex: 0 1 auto */
+}
+
+svg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 95%;
+    margin: 0;
+    padding: 1em 2.5%;
+    flex: initial; /* flex: 0 1 auto */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; /* main axis */
+    align-items: flex-start; /* cross axis */
+}
+
+.stats {
+    width: 95%;
+    margin: 0;
+    padding: 0 2.5%;
+    flex: initial; /* flex: 0 1 auto */
+}
+
+.notes {
+    width: 95%;
+    margin: 0;
+    padding: 0 2.5%;
+    flex: initial; /* flex: 0 1 auto */
+}
+
+/* Fonts */
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #1a1c1e;
+}
+
+.stats p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+    font-weight: 600;
+    border-bottom: 1px solid #616161; /* grey 700 */
+}
+
+@media (min-width: 300px) and (max-width: 399px) {
+    .pop {
+        margin-right: 14%;
+        margin-left: 14%;
+    }
+}
+
+@media (min-width: 400px) {
+    .pop {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
+text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+    font-weight: 500;
+    pointer-events: none;
+    fill: #001d33;
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #1a1c1e;
+}
+
+@media (min-width: 300px) and (max-width: 399px) {
+    p,
+    text {
+        font-size: 0.875em;
+    }
+
+    h2 {
+        font-size: 0.875em;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+    p,
+    text {
+        font-size: 0.9375em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    p,
+    text {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 900px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
