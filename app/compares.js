@@ -1,4 +1,4 @@
-import {allStates} from "./states.js";
+import { allStates } from "./states.js";
 
 function showCompares(etid) {
     "use strict";
@@ -67,4 +67,4 @@ function showCompares(etid) {
     });
 }
 
-export {showCompares};
+export { showCompares };

@@ -513,4 +513,4 @@ const allStates = {
     wyoming
 };
 
-export {allStates};
+export { allStates };

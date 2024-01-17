@@ -20,4 +20,4 @@ function standardizeFill() {
     });
 }
 
-export {standardizeFill};
+export { standardizeFill };

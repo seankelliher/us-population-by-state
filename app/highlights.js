@@ -1,4 +1,4 @@
-import {standardizeFill} from "./standards.js";
+import { standardizeFill } from "./standards.js";
 
 // Changes state's fill color when user mouses over.
 function mouseOver(etid) {
@@ -42,4 +42,4 @@ function mouseClick(etid) {
     target.setAttribute("fill", "#ede76d"); // Make fill the selected color.
 }
 
-export {mouseOver, mouseOut, mouseClick};
+export { mouseOver, mouseOut, mouseClick };

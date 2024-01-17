@@ -1,6 +1,6 @@
-import {standardizeFill} from "./app/standards.js";
-import {mouseOver, mouseOut, mouseClick} from "./app/highlights.js";
-import {showCompares} from "./app/compares.js";
+import { standardizeFill } from "./app/standards.js";
+import { mouseOver, mouseOut, mouseClick } from "./app/highlights.js";
+import { showCompares } from "./app/compares.js";
 
 // After DOM loads...
 document.addEventListener("DOMContentLoaded", function () {
