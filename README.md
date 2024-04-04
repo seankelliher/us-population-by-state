@@ -3,6 +3,10 @@
 
 Map of US that displays state population in 1980, 1990, 2000, 2010, and 2020. [View working component](https://seankelliher.github.io/us-population-by-state/).
 
+## Project Status
+
+Project meets general accessibility (WACG) and cross-browser requirements. More testing with a dedicated services (e.g., Sauce Labs) would be helpful if deploying to production.
+
 ## Project Screen Shots
 
 * View with California selected.
